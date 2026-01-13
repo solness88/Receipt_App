@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 依存関係
+node_modules
+
+# ビルド出力
+dist
+dist-ssr
+dist-electron
+*.local
+
+# ロックファイル
+package-lock.json
+
+# tar圧縮ファイル
+*.tar.gz
+*.tar
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS固有
+Thumbs.db
+
+# 会社ロゴ・会社印image
+public/logo.jpg
+public/stamp.jpg
+electron/logo.jpg
+build/icon.png
+
+# 会社情報（個人情報）
+src/companyConfig.ts
